@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover\:border-radius-none:hover img {
+    border-radius: 0;
+  }
+
+  .h-154{
+    height: 160px;
+  }
+
+  .col-span-1 ul li{
+    padding: 6px;
+    cursor: pointer;
+  }
+
+  #watch-button p{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2px;
+    font-size: small; 
+    cursor: pointer;
+    background-color: #e5e5eb; 
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
